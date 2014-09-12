@@ -1,8 +1,8 @@
 language: python
 python:
- - "2.7"
+ #- "2.7"
  - "3.3"
- - "3.4"
+# - "3.4"
 before_install:
  - sudo apt-get update
  - sudo apt-get install -y python-software-properties
@@ -22,5 +22,3 @@ before_script:
  - (cd ./atramhasis/static/admin && grunt -v build)
 script:
  - py.test --cov atramhasis --cov-report term-missing tests
-after_success:
- - coveralls
