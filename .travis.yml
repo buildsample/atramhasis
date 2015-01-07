@@ -23,3 +23,4 @@ before_script:
  - (cd ./atramhasis/static/admin && grunt -v build)
 script:
  - py.test --cov atramhasis --cov-report term-missing tests
+build_image: shippable/minv2:beta 
