@@ -25,4 +25,4 @@ before_script:
 script:
  - py.test --cov atramhasis --cov-report term-missing tests
 
-build_image: shippable/minv2:beta 
+#build_image: shippable/minv2:beta 
