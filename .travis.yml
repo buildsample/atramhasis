@@ -6,7 +6,7 @@ language:
 python:
  # - "2.7"
   - "3.3"
-  - "3.4"
+  #- "3.4"
 
 before_install:
  - sudo apt-get update
@@ -29,4 +29,3 @@ before_script:
 script:
  - py.test --cov atramhasis --cov-report term-missing tests
 
-#build_image: shippable/minv2:beta 
