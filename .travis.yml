@@ -1,6 +1,5 @@
-language:  
- - python
- - php
+language: python
+ 
 
 
 python:
