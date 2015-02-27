@@ -25,6 +25,7 @@ install:
  - (cd ./atramhasis/static/admin && bower install)
  - (cd ./atramhasis/static/admin && sudo npm install)
 
+
 before_script:
  - (cd ./atramhasis/static/admin && grunt -v build)
 
